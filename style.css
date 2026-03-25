@@ -1,0 +1,126 @@
+body {
+    font-family: Arial;
+	margin: 0;
+    background-color: #eef7f1;
+}
+
+header {
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+	background: linear-gradient(darkgreen, green);
+    color: white;
+    text-align: center;
+    padding: 37px;
+}
+
+nav {
+    position: fixed;
+    top: 150px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+}
+
+nav ul {
+	list-style-type: none;
+    background-color: #222;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav ul li a {
+	color: white;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+	background-color: green;
+}
+
+main {
+    padding-top: 200px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+figure {
+    text-align: center;
+}
+
+.foto-links {
+    margin: 0;              
+}
+
+.foto-links img {
+    display: block;
+    margin: 0;            
+}
+
+.foto-links figcaption {
+    text-align: left;	
+	margin-top: 5px;
+}
+
+.video-container {
+    display: block;
+	margin: 0; 
+}
+.caption {
+	text-align: left;
+    margin-top: 5px; 
+}
+
+img {
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 0.7s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.knop {
+    display: inline-block;
+    color: darkgreen;
+    text-decoration: none;
+}
+
+.knop:hover {
+    background-color: darkgreen;
+	color: white;
+	
+}
